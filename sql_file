@@ -1,0 +1,8 @@
+USE sakila;
+SELECT * FROM sakila.actor, sakila.film, sakila.customer;
+SELECT title FROM sakila.film;
+SELECT DISTINCT language_id FROM sakila.film;
+SELECT COUNT(store_id)  FROM store;
+SELECT COUNT(staff_id) FROM staff;
+SELECT * FROM staff;
+SELECT first_name FROM staff;
